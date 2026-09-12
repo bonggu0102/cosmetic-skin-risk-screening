@@ -1,0 +1,36 @@
+# Secrets and local environment
+.env
+.env.*
+secrets.json
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Caches and temporary artifacts
+**/_cache/
+**/cache/
+*checkpoint*
+*체크포인트*
+*progress*.json
+mfds_api_raw_cache.csv
+mfds_ingredient_master_cache.csv
+
+# Generated model artifacts
+artifacts/
+models/
+*.pkl
+*.joblib
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

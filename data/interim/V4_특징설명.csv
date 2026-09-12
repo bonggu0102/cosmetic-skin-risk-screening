@@ -1,0 +1,56 @@
+﻿feature_name,feature_block,description,skin_conditioned,direction,evidence_weight,source_id,source_url
+skin_건성,skin_type,피부유형 One-hot,True,model_learns,,review skin type,
+skin_민감성,skin_type,피부유형 One-hot,True,model_learns,,review skin type,
+skin_복합성,skin_type,피부유형 One-hot,True,model_learns,,review skin type,
+skin_약건성,skin_type,피부유형 One-hot,True,model_learns,,review skin type,
+skin_중성,skin_type,피부유형 One-hot,True,model_learns,,review skin type,
+skin_지성,skin_type,피부유형 One-hot,True,model_learns,,review skin type,
+skin_트러블성,skin_type,피부유형 One-hot,True,model_learns,,review skin type,
+v3_count_humectant,V3_function_count,제품에 포함된 해당 기능군의 고유 성분 개수,False,model_learns,,V3 functional ingredient mapping,
+v3_count_emollient,V3_function_count,제품에 포함된 해당 기능군의 고유 성분 개수,False,model_learns,,V3 functional ingredient mapping,
+v3_count_occlusive,V3_function_count,제품에 포함된 해당 기능군의 고유 성분 개수,False,model_learns,,V3 functional ingredient mapping,
+v3_count_barrier,V3_function_count,제품에 포함된 해당 기능군의 고유 성분 개수,False,model_learns,,V3 functional ingredient mapping,
+v3_count_soothing,V3_function_count,제품에 포함된 해당 기능군의 고유 성분 개수,False,model_learns,,V3 functional ingredient mapping,
+v3_count_active,V3_function_count,제품에 포함된 해당 기능군의 고유 성분 개수,False,model_learns,,V3 functional ingredient mapping,
+v3_count_fragrance,V3_function_count,제품에 포함된 해당 기능군의 고유 성분 개수,False,model_learns,,V3 functional ingredient mapping,
+v3_count_acid_exfoliant,V3_function_count,제품에 포함된 해당 기능군의 고유 성분 개수,False,model_learns,,V3 functional ingredient mapping,
+v3_count_silicone,V3_function_count,제품에 포함된 해당 기능군의 고유 성분 개수,False,model_learns,,V3 functional ingredient mapping,
+v3_count_peptide,V3_function_count,제품에 포함된 해당 기능군의 고유 성분 개수,False,model_learns,,V3 functional ingredient mapping,
+v3_count_botanical_extract,V3_function_count,제품에 포함된 해당 기능군의 고유 성분 개수,False,model_learns,,V3 functional ingredient mapping,
+v3_count_oil_butter,V3_function_count,제품에 포함된 해당 기능군의 고유 성분 개수,False,model_learns,,V3 functional ingredient mapping,
+v4_sensory_count_light_ester,sensory_base,light_ester 감각 처방군의 고유 성분 개수,False,model_learns,,PMID:16116522; PMID:22085371,https://pubmed.ncbi.nlm.nih.gov/16116522/
+v4_sensory_count_volatile_silicone,sensory_base,volatile_silicone 감각 처방군의 고유 성분 개수,False,model_learns,,PMID:16116522; PMID:22085371,https://pubmed.ncbi.nlm.nih.gov/16116522/
+v4_sensory_count_nonvolatile_silicone,sensory_base,nonvolatile_silicone 감각 처방군의 고유 성분 개수,False,model_learns,,PMID:16116522; PMID:22085371,https://pubmed.ncbi.nlm.nih.gov/16116522/
+v4_sensory_count_hydrocarbon_occlusive,sensory_base,hydrocarbon_occlusive 감각 처방군의 고유 성분 개수,False,model_learns,,PMID:16116522; PMID:22085371,https://pubmed.ncbi.nlm.nih.gov/16116522/
+v4_sensory_count_fatty_alcohol,sensory_base,fatty_alcohol 감각 처방군의 고유 성분 개수,False,model_learns,,PMID:16116522; PMID:22085371,https://pubmed.ncbi.nlm.nih.gov/16116522/
+v4_sensory_count_plant_oil,sensory_base,plant_oil 감각 처방군의 고유 성분 개수,False,model_learns,,PMID:16116522; PMID:22085371,https://pubmed.ncbi.nlm.nih.gov/16116522/
+v4_sensory_count_wax_butter,sensory_base,wax_butter 감각 처방군의 고유 성분 개수,False,model_learns,,PMID:16116522; PMID:22085371,https://pubmed.ncbi.nlm.nih.gov/16116522/
+v4_sensory_count_essential_oil,sensory_base,essential_oil 감각 처방군의 고유 성분 개수,False,model_learns,,PMID:16116522; PMID:22085371,https://pubmed.ncbi.nlm.nih.gov/16116522/
+v4_has_niacinamide,ingredient_presence_order,나이아신아마이드 포함 여부,False,model_learns,,ingredient list,
+v4_niacinamide_top10,ingredient_presence_order,나이아신아마이드 상위 10성분 표기 여부,False,model_learns,,ingredient list,
+v4_niacinamide_prominence,ingredient_presence_order,나이아신아마이드 표기 순서 Proxy,False,model_learns,,ingredient list,
+v4_has_panthenol,ingredient_presence_order,판테놀 포함 여부,False,model_learns,,ingredient list,
+v4_panthenol_top10,ingredient_presence_order,판테놀 상위 10성분 표기 여부,False,model_learns,,ingredient list,
+v4_panthenol_prominence,ingredient_presence_order,판테놀 표기 순서 Proxy,False,model_learns,,ingredient list,
+v4_has_ceramide,ingredient_presence_order,세라마이드 계열 포함 여부,False,model_learns,,ingredient list,
+v4_ceramide_prominence,ingredient_presence_order,세라마이드 계열 표기 순서 Proxy,False,model_learns,,ingredient list,
+v4_has_salicylic,ingredient_presence_order,살리실릭애씨드 계열 포함 여부,False,model_learns,,ingredient list,
+v4_salicylic_prominence,ingredient_presence_order,살리실릭애씨드 계열 표기 순서 Proxy,False,model_learns,,ingredient list,
+v4_has_cholesterol,ingredient_presence_order,콜레스테롤 포함 여부,False,model_learns,,ingredient list,
+v4_has_fatty_acid,ingredient_presence_order,선정 지방산 포함 여부,False,model_learns,,ingredient list,
+v4_acid_exact_count,ingredient_presence_order,선정 산·각질 성분의 고유 개수,False,model_learns,,ingredient list,
+v4_rule_dry_hydration_completeness,clinical,건성·약건성의 보습·유연·밀폐 구성 완성도,True,support,1.0,PMID:31532576,https://pubmed.ncbi.nlm.nih.gov/31532576/
+v4_rule_dry_barrier_lipid_completeness,clinical,세라마이드·콜레스테롤·지방산 장벽지질 구성 완성도,True,support,0.64,PMID:8618046,https://pubmed.ncbi.nlm.nih.gov/8618046/
+v4_rule_sensitive_recovery_system,clinical,판테놀 또는 나이아신아마이드와 장벽·진정 기능군의 조합,True,support,0.48,PMID:21982351,https://pubmed.ncbi.nlm.nih.gov/21982351/
+v4_rule_sensitive_fragrance_load,caution,민감성 피부의 향료 부담,True,caution,0.8,SCCS fragrance allergens; PMID:14572300,https://health.ec.europa.eu/scientific-committees/scientific-committee-consumer-safety-sccs_en
+v4_rule_sensitive_acid_load,caution,민감성 피부의 산·각질 성분 부담,True,caution,0.448,PMID:15725565,https://pubmed.ncbi.nlm.nih.gov/15725565/
+v4_rule_sensitive_essential_oil_load,caution,민감성 피부의 에센셜오일 부담,True,caution,0.288,PMID:24175401,https://pubmed.ncbi.nlm.nih.gov/24175401/
+v4_rule_oily_niacinamide_prominence,clinical,지성 피부에서 나이아신아마이드 표기 prominence,True,support,0.8,PMID:16766489,https://pubmed.ncbi.nlm.nih.gov/16766489/
+v4_rule_oily_heavy_load,sensory,왁스·버터·식물성 오일·탄화수소 밀폐제·지방알코올 기반 Heavy 처방 Proxy,True,exploratory,0.0,PMID:16116522; PMID:22085371,https://pubmed.ncbi.nlm.nih.gov/16116522/
+v4_rule_oily_light_system,sensory,휘발성 실리콘·가벼운 에스터·실리콘 기반 Light 처방 Proxy,True,exploratory,0.0,PMID:16116522; PMID:22085371,https://pubmed.ncbi.nlm.nih.gov/22085371/
+v4_rule_trouble_niacinamide_ceramide,clinical,트러블성 피부의 나이아신아마이드·세라마이드 동시 포함,True,support,0.7,PMID:38299457,https://pubmed.ncbi.nlm.nih.gov/38299457/
+v4_rule_trouble_salicylic_barrier,clinical,살리실릭애씨드와 장벽 기능군의 보상형 조합 가설,True,support,0.2,PMID:15725565; PMID:38299457,https://pubmed.ncbi.nlm.nih.gov/38299457/
+v4_rule_acid_without_barrier_compensation,caution,산 성분은 있으나 장벽 기능군 구성이 낮은 경우,True,caution,0.2,PMID:15725565,https://pubmed.ncbi.nlm.nih.gov/15725565/
+v4_evidence_support_score,evidence_summary,Support 방향 규칙 강도×근거 신뢰도의 합,True,model_learns,,derived from evidence rules,
+v4_evidence_caution_score,evidence_summary,Caution 방향 규칙 강도×근거 신뢰도의 합,True,model_learns,,derived from evidence rules,
+v4_evidence_conflict_score,evidence_summary,Support와 Caution 점수가 동시에 큰 정도,True,model_learns,,derived from evidence rules,
