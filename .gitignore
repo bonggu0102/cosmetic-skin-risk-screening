@@ -15,13 +15,14 @@ venv/
 .ipynb_checkpoints/
 
 # Caches and temporary artifacts
-**/_cache/
+**/_cache/*
 **/cache/
+!data/interim/_cache/
+!data/interim/_cache/mfds_api_raw_cache.csv
+!data/interim/_cache/mfds_ingredient_master_cache.csv
 *checkpoint*
 *체크포인트*
 *progress*.json
-mfds_api_raw_cache.csv
-mfds_ingredient_master_cache.csv
 
 # Generated model artifacts
 artifacts/

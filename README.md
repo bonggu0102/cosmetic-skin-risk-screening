@@ -124,6 +124,7 @@ Train은 869건·140개 처방 그룹, Test는 255건·36개 처방 그룹으로
 ├── data/
 │   ├── raw/                      # 크롤링 원본 데이터
 │   ├── interim/                  # 전처리·Feature Engineering 결과
+│   │   └── _cache/               # 식약처 API 원본 및 표준 성분사전
 │   └── processed/                # 최종 모델 입력 및 감성분석 결과
 ├── reports/                      # Test 결과 및 프로젝트 포스터
 ├── experiments/                  # 팀원의 전면 재설계 모델링 실험
@@ -151,7 +152,7 @@ jupyter notebook
 
 모든 노트북은 저장소 루트를 기준으로 한 상대경로를 사용합니다. Feature Engineering과 모델링은 저장된 데이터로 실행할 수 있어 크롤링과 Gemini 감성분석을 다시 수행할 필요가 없습니다.
 
-크롤링·외부 전처리·Gemini API 재실행은 기본적으로 꺼져 있습니다. 크롤링은 `RUN_LIVE_CRAWLING=True`, Gemini 재분석은 `RUN_GEMINI_API=True`로 변경해 실행하며, Gemini API 키와 사용 비용은 실행자에게 발생합니다.
+크롤링·외부 전처리·Gemini API 재실행은 기본적으로 꺼져 있습니다. 전처리를 다시 실행할 때는 저장소의 식약처 성분사전 캐시를 사용하므로 `RUN_PREPROCESSING=True`, `REFRESH_MFDS_CACHE=False`로 설정하면 API를 다시 호출하지 않습니다. 크롤링은 `RUN_LIVE_CRAWLING=True`, Gemini 재분석은 `RUN_GEMINI_API=True`로 변경해 실행하며, Gemini API 키와 사용 비용은 실행자에게 발생합니다.
 
 ## 노트북 실행 순서
 
